@@ -1,0 +1,13 @@
+name: device-manager
+namespace: smarter
+version: "1.20.7"
+description: A kubernetes device manager for governing access to node devices
+
+source:
+    architectures:
+        - linux/amd64
+        - linux/arm/v7
+        - linux/arm64
+    url: https://github.com/smarter/smarter-device-manager
+    branch: sage
+
